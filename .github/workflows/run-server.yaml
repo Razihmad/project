@@ -14,4 +14,4 @@ jobs:
                 echo "run server"
                 go run main.go &
                 sleep 10
-                go test -v
+                go test
